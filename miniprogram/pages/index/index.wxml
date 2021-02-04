@@ -20,6 +20,8 @@
   <view class="uploader">
     <view class="uploader-text" bindtap="doUpload">
       <text>上传图片1</text>
+      <text>上传图片2</text>
+
     </view>
     <view class="uploader-container" wx:if="{{imgUrl}}">
       <image class="uploader-image" src="{{imgUrl}}" mode="aspectFit" bindtap="previewImg"></image>
